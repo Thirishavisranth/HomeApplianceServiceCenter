@@ -1,0 +1,122 @@
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /*background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");*/
+    background-image: url("images.jpg");
+    background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+    
+  }
+  .errors{
+    color:red;
+    font-size: 12px;
+  }
+  
+  .uth-form, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Add this line to center align the form vertically */
+    height: 100%; /* Add this line to make the form take up the full height of the container */
+    display:flex;
+    background-image: linear-gradient(to bottom right, #f5f1ef, #f5f3fa);
+    
+  }
+  
+  @media screen and (min-width: 600px) {
+    .uth-form {
+      padding: 5rem;
+      border: 1px solid white;
+      background-color: rgb(194, 194, 186);
+      border-radius: 50px;    
+      width: 250px;
+      display:flex;
+      align-items: center;
+      width: 15vw;
+      height: 35vh;
+      
+
+    }
+    
+  }
+  
+  /* Rest of the CSS */
+  
+  
+  label{
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  input{
+    margin: 0.5rem 0; 
+    padding: 0.8rem;
+    border: none;
+    border-radius: 60px;
+    background-color: rgb(234, 231, 231);
+  }
+  
+  button{
+    border: none;
+    background-color: rgb(48, 51, 50);
+    color: aliceblue;
+    margin: 0.5rem;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+  }
+  
+  .link-btn{
+    background: none;
+    color: rgb(47, 33, 16);
+    text-decoration: underline;
+  }
+  /* .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
